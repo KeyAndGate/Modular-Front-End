@@ -12,7 +12,7 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v10" // mapbox has lots of different map styles available.
 });
 
-const fullstackMarker = marker('activity', [-74.009151, 40.705086]).addTo(map)
+const fullstackMarker = marker('restaurant', [-74.009151, 40.705086]).addTo(map)
 
 // const fullstackMarker= new mapboxgl.Marker(markerDomEl).setLngLat().addTo(map);
 
