@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Trip Planner</title>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css' rel='stylesheet' />
-    <link rel="stylesheet" href="./style.css"></link>
-    <script src="./bundle.js" defer></script>
-  </head>
-  <body>
 
-    <div id="map"></div>
-  </body>
+<head>
+  <title>Trip Planner</title>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="./style.css"></link>
+  <script src="./bundle.js" defer></script>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Contact</a>
+  </div>
+
+  <div class="locations">
+    <h3>Restaurants</h3>
+   <div class="dropdown">
+    <select>
+      <option value="marc">Marc Forgione</option>
+      <option value="amer">American Cut</option>
+    </select>
+    <button>+</button>
+  </div>
+  <h3>Hotels</h3>
+  <div class="dropdown">
+    <select>
+      <option value="pub">Public Hotel</option>
+      <option value="ace">Ace Hotel</option>
+    </select>
+    <button>+</button>
+  </div>
+
+  <h3>Activities</h3>
+  <div class="dropdown">
+    <select>
+      <option value="bowl">Bowling</option>
+      <option value="mov">Movie Theater</option>
+    </select>
+    <button>+</button>
+  </div>
+</div>
+
+
+<div class="itinerary">
+<h2>Itinerary:</h2>
+  <h3>My Hotel</h3>
+<ul>
+<li><button>x</button></li>
+</ul>
+<h3>My Restaurants</h3>
+<ul>
+<li><button>x</button></li>
+</ul>
+<h3>My Activities</h3>
+<ul>
+<li><button>x</button></li>
+</ul>
+
+
+</div>
+
+
+  <div id="map"></div>
+</body>
+
 </html>
